@@ -1,0 +1,10 @@
+Feature Set,Num Features,AUROC,95% CI Lower,95% CI Upper
+All Features (Baseline),932,0.7492,0.6762,0.8006
+Drop Diagnoses,666,0.7588,0.6998,0.807
+Drop Demographics,844,0.7582,0.6905,0.8032
+Drop Utilization,927,0.7524,0.6808,0.7993
+Drop Prescriptions,811,0.72,0.6506,0.7733
+Drop Vitals,925,0.751,0.6851,0.8043
+Drop Procedures,641,0.7657,0.7016,0.8158
+Drop Demo & PROMIS,838,0.6255,0.552,0.6899
+Only PROMIS (drop all else),6,0.783,0.7192,0.8393

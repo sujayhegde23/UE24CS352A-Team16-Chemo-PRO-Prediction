@@ -1,0 +1,8 @@
+Model,KNN_y_drop,KNN_y_threshold,Binned_y_drop,Binned_y_threshold,Mean,SD
+Logistic Regression,0.7763,0.9111,0.7763,0.9111,0.8437,0.0778
+SVM,0.6979,0.745,0.6717,0.7039,0.7046,0.0303
+Random Forest,0.7756,0.9,0.7921,0.9008,0.8421,0.0676
+LightGBM,0.7685,0.9043,0.8042,0.9109,0.847,0.0716
+Ensemble Voting,0.7958,0.9064,0.8214,0.91,0.8584,0.0585
+Outcome Mean,0.7628,0.8733,0.7731,0.8674,,
+Outcome SD,0.0377,0.0719,0.059,0.0915,,
