@@ -100,6 +100,10 @@ streamlit run app.py
 
 # Or if streamlit is not in your system PATH (recommended on Windows):
 python -m streamlit run app.py
+
+# Or using the Windows launcher scripts:
+.\run.ps1       # PowerShell
+run.bat         # Command Prompt
 ```
 
 Open `http://localhost:8501` in your browser.
@@ -121,9 +125,9 @@ Systematic removal of feature groups reveals that **baseline PROMIS scores** are
 The interactive dashboard (`app.py`) provides four views:
 
 1. **Dataset & Features** — Cohort statistics, feature group breakdowns, KNN vs Binned comparison
-2. **Experiment 1 Leaderboard** — Table 1 with visual model comparison
-3. **Experiment 2 ROC & Ablation** — Figure 1 ROC curves and ablation analysis
-4. **Live Patient Risk Predictor** — Real-time risk scoring with adjustable patient parameters
+2. **Experiment 1 Leaderboard** — Table 1 with visual model comparison across all 4 tasks
+3. **Experiment 2 ROC & Ablation** — Figure 1 ROC curves and Table 2 ablation analysis
+4. **Live Patient Risk Predictor** — Generalized, formula-based risk scoring using synthetic DGP relationships with dynamic cohort-median slider defaults, Low/Moderate/High interpretation badges, and guaranteed directional monotonicity
 
 ---
 

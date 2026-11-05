@@ -4,7 +4,9 @@ __pycache__/
 .ipynb_checkpoints/
 .env
 .venv
+.venv*
 env/
 venv/
+.vscode/
 *.log
 .DS_Store
